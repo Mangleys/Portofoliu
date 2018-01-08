@@ -1,0 +1,271 @@
+﻿*, *:before, *:after {
+  box-sizing: border-box;
+}
+*:before, *:after {
+  clear: both;
+  float: none;
+}
+body {
+	background-color: white;
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.clear, .clr {
+	clear: both;
+}
+
+
+div .container {
+	display: block;
+	margin: 0 auto;
+	max-width: 960px;
+}
+.topmenu {
+	max-width: 960px;
+	margin:0 auto;
+	border-bottom: 1px solid grey;
+	padding-bottom: 30px;
+	
+	}
+	.leftbar {
+		
+		float: left;
+	}
+	.menu {
+		float: right;
+	}
+	 .menu ul {
+	 	list-style: none;
+	 	background-color: #e2494b;
+	 	border-radius: 8px;
+	 	padding: 5px;
+	 	margin-top: 50px;
+	 }
+	  .menu ul li  {
+	  	display: inline-block;
+	  	text-align: center;
+	  	height: 40px;
+	  }
+		  .menu ul li a {
+		  	text-decoration: none;
+		  	color: white;
+		  	border:1px solid #e2494b;
+		  	background-color: #e2494b;
+		  	padding: 3px 15px 3px 15px;
+		  	position: relative;
+		  	top: 12px;
+		  	font-weight: bold;
+		  }
+		  	.menu ul li a:hover {
+		  		color: #ee9395;
+		  }
+
+.maintext {
+	display: block;
+
+}
+.maintext p {
+	padding-top: 30px;
+	font-family: Georgia;
+	font-size: 22px;
+	text-decoration: underline;
+	text-align: center;
+	margin:0 70px 0 70px;
+
+}
+
+.imagecenter {
+	padding: 50px;
+}
+	.imagecenter img {
+		width: 960px;
+		height: 350px;
+		background-color: #353535;
+	}
+		.imagecenter .button {
+			text-align: center;
+			padding-top: 50px;
+		}
+			.imagecenter .button a {
+				text-decoration: none;
+				font-family: Georgia;
+				font-size: 22px;
+				border:1px solid #e2494b;
+				background-color: #e2494b;
+				color:white;
+				border-radius: 8px;
+				padding: 5px;
+				padding: 0 30px;
+			}
+			 .imagecenter .button a:hover {
+			 	color: #ee9395;
+
+			}
+		
+.articol {
+	margin-top: 2px;
+}
+.articol article {
+	width: 32%;
+	display: inline-block;
+	padding-right: 15px;
+	margin: 0 4px;
+}
+ .articol article img {
+	width: 32px;
+	height: 32px;
+	background-color: #333333;
+}
+ .articol article h2 .imaginearticol {
+	margin-right: 15px;
+}
+.articol article .button2 {
+	text-decoration: none;
+	color: red;
+}
+.articol article a:hover {
+	color: black;
+}
+.articol .button {
+			text-align: center;
+			padding-top: 50px;
+			margin:0 auto;
+}
+	.articol .button1 {
+					text-decoration: none;
+					font-family: Georgia;
+					font-size: 22px;
+					border:1px solid #e2494b;
+					background-color: #e2494b;
+					color:white;
+					border-radius: 8px;
+					padding: 5px;
+					padding: 0 30px;
+				} 
+
+		.articol .button a:hover {
+					 	color: #ee9395;
+					 }
+
+.articol2 {
+	margin-top: 100px;
+}
+.articol2 article {
+	width: 19.5%;
+	display: inline-block;
+}
+.articol2 article .button3 {
+	text-decoration: none;
+	color: red;
+}
+.articol2 article a:hover {
+	color: black;
+}
+.articol2 .button {
+	text-align: center;
+	padding-top: 50px;
+
+}
+	.articol2 .button1 {
+					text-decoration: none;
+					font-family: Georgia;
+					font-size: 22px;
+					border:1px solid #e2494b;
+					background-color: #e2494b;
+					color:white;
+					border-radius: 8px;
+					padding: 5px;
+					padding: 0 30px;
+	}
+		.articol2  a:hover {
+			color: #ee9395;
+		}
+
+.imaginiarticol {
+	margin-top: 10px;
+	}
+
+	.imaginiarticol img {
+	 	width: 300px;
+	 	height: 160px;
+	 	background-color: #353535;
+	 }
+		 .imaginiarticol .imaginearticol1 {
+		 	width: 33%;
+		 }
+	 
+/* ////////////////////////////////// footer \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+footer   {
+	background-color: #e2e2e2;
+}
+	
+footer .footer1 {
+	margin-top: 80px;
+
+}
+
+footer .footer1 .column1 {
+	display: inline-block;
+	width: 50%;
+	margin-top: 50px;
+	float: left;
+	
+
+}
+footer .footer1 .column2 {
+	display: inline-block;
+	width: 25%;
+	margin-top: 50px;
+	float: left;
+
+}
+
+footer .footer1 img {
+	height: 95px;
+	width: 95px;
+	background-color: #333333;
+	margin-right: 35px;
+	margin-bottom: 20px;
+	float: left;
+	
+	
+}
+
+footer .footer1 .column2 form input[type=text] {
+	height: 31px;
+	width: 225px;
+	margin-top: 13px;
+	border-radius: 10px;
+	outline: none;
+}
+footer .footer1 .column2 form input[type=Message] {
+	height: 110px;
+	width: 225px;
+	margin-top: 13px;
+	border-radius: 10px;
+	outline: none;
+}
+
+footer .footer1 .column2 form button {
+	margin-top: 20px;
+	width: 77px;
+	height: 27px;
+	border-radius: 7px;
+	background-color: #e2494b;
+	color: white;
+	text-align: center;
+	outline: none;
+
+}
+/* ////////////////////////////////// responsive \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+
+@media (max-width: 600px) {
+
+		.container .column .pagecontainer {
+			width: 100%;
+		}
+}

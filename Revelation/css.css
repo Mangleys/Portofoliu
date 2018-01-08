@@ -1,0 +1,321 @@
+﻿*, *:before, *:after {
+  box-sizing: border-box;
+}
+*:before, *:after {
+  clear: both;
+  float: none;
+}
+body {
+	background-color: white;
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.clear, .clr {
+	clear: both;
+}
+
+.topbar {
+	margin-top:-15px;
+	background-color: purple;
+	height: 45px;
+}
+	.topbar .topbar-menu1 {
+		float: right;
+	}
+
+		.topbar .topbar-menu1 li {
+			list-style: none;
+			display: inline-block;
+		}
+			.topbar .topbar-menu1 li a {
+				color: white;
+				font-size: 15px;
+				margin-right: 15px;
+				border-right: 2px solid white;
+				padding-right: 5px;
+				vertical-align: middle;
+			}
+
+			.topbar .topbar-menu1 li a:hover {
+				color: black;
+			}
+
+div .container {
+	display: block;
+	margin: 0 auto;
+	max-width: 960px;
+}
+
+.topbar2 {
+	width: 100%;
+}
+	.topbar2 .container .logo {
+		float: left;
+		width: 20%;
+	}
+		.topbar2 .container .logo h2 {
+			font-family: Times New Roman;
+			font-size: 40px;
+			margin-bottom: 0px;
+		}
+
+	.topbar2 .container .menu {
+		float: right;
+		width: 80%;
+	}
+	.topbar2 .container ul {
+		list-style: none;
+		margin: 0px;
+		padding: 80px 0px;
+		text-align: right;
+	}
+	.topbar2 .container ul li {
+		display: inline-block;
+		padding: 0 7px;
+	}
+		.topbar2 .container ul li a {
+			text-decoration: none;
+			color: black;	
+			font-family: 'Roboto', sans-serif;
+			font-size: 12px;
+
+
+		}
+			.topbar2 .container ul li a:hover {
+				border-bottom: 2px solid black;
+				padding-bottom: 8px;
+			}
+
+
+
+.pagecontainer {
+	width: 100%;
+}
+	.pagecontainer .container .image {
+		float: left;
+		width: 60%;
+	}
+	.pagecontainer .container img {
+		float: left;	
+	}
+		
+	.pagecontainer .container .text {
+		width: 40%;
+		float: left;
+		margin-top: 40px;
+	}
+		.pagecontainer .container .text .Readme {
+			background-color: #55415f;
+			color: #fff;
+			border:1px solid black;
+			text-decoration: none;
+			padding: 5px;
+			display: inline-block;
+			min-width: 110px;
+			text-align: center;
+			border-radius: 4px;
+		}
+			.pagecontainer .container .text .Readme:hover {
+				background-color: #fff;
+				color: #55415f;
+			}
+
+	.pagecontainer .container {
+		width: 100%;
+	}
+	.pagecontainer .container .articles article {
+		display: inline-block;
+	    padding: 20px;
+	    position: relative;
+	    width: calc(25% - 30px);
+	    height: 350px;
+	    float: left;
+	    margin: 15px;
+	    border: 30px;
+	}
+	.pagecontainer .container .articles article .square {
+		width: 64px;
+		height: 64px;
+		background-color: #353535;
+
+	}
+	.pagecontainer .container .articles article h2 {
+		font-size: 20px;
+	}
+
+	.pagecontainer .container .articles .text {
+		width: 100%;
+		font-weight: bold;
+		display: inline-block;
+		text-align: center;
+	}
+
+.container .alttext {
+	width: 960px;
+}
+.container .alttext  article {
+		display: inline-block;
+	    padding: 20px;
+	    position: relative;
+	    width: calc(25% - 30px);
+	    height: 350px;
+	    float: left;
+	    margin: 15px;
+	    border: 30px;
+}
+.container .alttext article .columnimage {
+	background-color:  #353535;
+	width: 225px;
+	height: 140px;
+	position: relative;
+	right: 20px;
+}
+.container .alttext article .Readmore {
+	text-decoration: none;
+}
+
+
+/* ////////////////////////////////// footer \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+
+
+footer   {
+	background-color: #222222;
+
+}
+	footer .top {
+		border-bottom: 1px solid #000;
+	}
+		footer .top .column {
+			display: inline-block;
+			padding: 20px;
+			width: 25%;
+			float: left;
+			border: 30px;
+			padding: 25px 18px 25px 0;
+		}
+			footer .top .column h2 {
+				color: white;
+				font-size: 18px;
+				line-height: 18px;
+				margin: 0 0 16px;
+			}
+			footer .top .column h3 {
+				margin: 30px 0 5px;
+				color: #55415f;
+			}
+			footer .top .column span {
+				
+				color: grey;
+			}
+			footer .top .column p {
+				
+				color: grey;
+			}
+
+			footer .top .column ul {
+				list-style: none;
+				margin: 10px 0;
+				padding-left: 0;
+			}
+				footer .top .column ul li {
+					/*margin-top: 30px;*/
+				}
+					footer .top .column ul li a {
+						text-decoration: none;
+						color: #55415f;
+						font-size: 12px;
+						line-height: 24px;
+						display: inline-block;
+						padding: 1px 0;
+					}
+						footer .top .column ul li a:hover {
+							color: white;
+
+						}
+			footer .top .column .Contact {
+				margin-top: 60px;
+				color: white;
+			}
+				footer .top .column .Contact .culoareemail {
+					color: #55415f;
+
+				}
+			footer .top .column form input[type=text] {
+				/*background-color: grey;
+				margin: 0 0 10px 0;
+				height: 40px;
+				border-radius: 10px;*/
+
+				color: #807d77;
+				font-size: 12px;
+				line-height: 20px;
+				height: 32px;
+				width: 100%;
+				background-color: #353535;
+				margin: 0 0 10px;
+				border-radius: 6px;
+				border: 0 solid;
+				padding: 5px 8px;
+					outline: none;
+			}
+				footer .top .column form button {
+					/*text-decoration: none;
+					background-color: #55415f;
+					color: #fff;
+					border:1px solid black;
+					text-decoration: none;
+					padding: 5px;
+					display: inline-block;
+					min-width: 110px;
+					text-align: center;
+					border-radius: 4px;*/
+
+					color: #fff;
+					font-size: 13px;
+					line-height: 20px;
+					font-weight: 700;
+					min-width: 80px;
+					text-align: center;
+					height: 32px;
+					background-color: #9f81a9;
+					border: 0px;
+					border-radius: 6px;
+					outline: none;
+
+				}
+					footer .top .column form button:hover {
+						background-color: #fff;
+						color: #55415f;
+					}
+	footer .bot {
+		border-top: 1px solid #3a3a3a;
+		background-color: #222222;
+	}
+	footer .bot .bottext1 {
+		width: 50%;
+		display: inline-block;
+		float: left;
+	}
+	footer .bot .bottext2 {
+		width: 50%;
+		display: inline-block;
+		float: right;
+	}
+	
+
+
+
+
+/* ////////////////////////////////// responsive \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+
+
+@media (max-width: 600px) {
+
+		.container .column .pagecontainer {
+			width: 100%;
+		}
+}
